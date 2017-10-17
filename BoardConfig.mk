@@ -21,6 +21,9 @@ DEVICE_PATH := device/xiaomi/chiron
 # Assert
 TARGET_OTA_ASSERT_DEVICE := chiron
 
+# Set buildtype official  
+NUCLEAR_BUILDTYPE := OFFICIAL
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
